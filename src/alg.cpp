@@ -52,7 +52,7 @@ uint64_t sumPrime(uint64_t hbound) {
   int sum = 0;
   if (hbound >= 2)
     sum = sum + 2;
-  for (int i = 3; i < 10000; ++i) {
+  for (uint64_t i = 3; i < 10000; ++i) {
     bool l = true;
     for (int j = 2; j < i; ++j) {
       if (i % j == 0) {
