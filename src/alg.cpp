@@ -14,9 +14,9 @@ bool checkPrime(uint64_t value) {
 
 uint64_t nPrime(uint64_t n) {
   int value = 1;
-  if (n == value) 
+  if (n == value)
     return 2;
-  for (int i = 3; i < 10000; ++i){ 
+  for (int i = 3; i < 10000; ++i) {
     bool k = true;
     for (int j = 2; j < i; ++j) {
       if (i % j == 0) {
